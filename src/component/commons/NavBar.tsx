@@ -67,7 +67,7 @@ const NavBar = () => {
           {hamburgerOpen && (
             <div className="absolute top-0 left-0 w-full lg:hidden bg-rpaBlue-900 z-[500] text-white">
               <div className=" gap-8 bg-rpaBlue-500 py-6 flex flex-col shadow-md shadow-blue-500/50">
-                <div className=" container mx-auto px-6 flex items-center justify-between ">
+                <div className=" container mx-auto px-6 flex items-center justify-between">
                   <div>
                     <img
                       src="/images/appliedrpa-logo.png"
