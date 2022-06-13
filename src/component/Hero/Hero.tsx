@@ -1,5 +1,6 @@
 import React from "react";
-
+import Lottie from "react-lottie";
+import robotHi from "../Lotte/robotHi.json";
 const Hero = () => {
   return (
     <section className="hero_bg bg-rpaBlue-900 text-white -mt-[8.8rem] ">
@@ -14,7 +15,17 @@ const Hero = () => {
             </p>
           </div>
           <div>
-            <img src="/images/hero-1.png" alt="hero-img" />
+            {/* <img src="/images/hero-1.png" alt="hero-img" /> */}
+            <Lottie
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: robotHi,
+                rendererSettings: {
+                  preserveAspectRatio: "xMidYMid slice",
+                },
+              }}
+            />
           </div>
         </div>
       </div>
