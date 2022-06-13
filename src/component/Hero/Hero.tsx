@@ -3,8 +3,8 @@ import Lottie from "react-lottie";
 import robotHi from "../Lotte/robotHi.json";
 const Hero = () => {
   return (
-    <section className="hero_bg bg-rpaBlue-900 text-white -mt-[8.8rem] ">
-      <div className="container mx-auto px-6 pb-40 pt-40  max-w-7xl">
+    <section className="hero_bg bg-rpaBlue-900 text-white -mt-[8.9rem] lg:-mt-[8.8rem] ">
+      <div className="container mx-auto px-6 pb-40 pt-52 lg:pt-40  max-w-7xl">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           <div className="flex flex-col">
             <h1 className="text-5xl lg:text-6xl font-bold">
